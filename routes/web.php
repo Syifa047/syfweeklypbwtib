@@ -3,17 +3,31 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title"  =>  "Home"
+    ]);
 });
 
 Route::get('/profile', function () {
-    return view('profile');
+
+    return view('profile', [
+        "title" => "Profile",
+        "nama" => "syifa maulida",
+        "nim" => "3242520047",
+        "prodi" => "teknologi informasi",
+        "gambar" => "image"
+    ]);
+
 });
 
 Route::get('/berita', function () {
-    return view('berita');
+    return view('berita',[
+        "title"  =>  "Berita"
+    ]);
 });
 
 Route::get('/kontak', function () {
-    return view('kontak');
+    return view('kontak',[
+        "title"  =>  "Kontak"
+    ]);
 });

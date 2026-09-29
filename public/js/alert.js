@@ -1,2 +1,1 @@
-
-    alert ("heiii");
+alert ("heiii");
