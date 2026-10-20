@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="text-center">
-        <h2>{{ $berita["Judul"] }}</h2>
-        <h5>{{ $berita["Penulis"] }}</h5>
+        <h2>{{ $berita["judul"] }}</h2>
+        <h5>{{ $berita["penulis"] }}</h5>
     </div>  
     <div class="text-justify">
-        <p>{{ $berita["Konten"] }}</p>
+        <p>{{ $berita["konten"] }}</p>
         
     </div> 
 
